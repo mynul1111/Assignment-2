@@ -1,0 +1,137 @@
+
+.header{
+    
+    
+}
+
+/* nav style */
+.logo-container{
+    display: flex;
+    gap: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 0px 35px;
+    margin-left: 40px;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+/* banner style */
+.banner{
+    /* width: 1170px; */
+    /* width: 95%; */
+    height: 500px;
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin: 80px 75px;
+}
+.banner-container{
+    text-align: center;
+    padding-top: 70px;
+}
+.banner-title{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* banneer background */
+
+.banner-background{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    height: 65px;
+    width: 65%;
+    margin-left: 200px;
+    margin-top: 70px;
+    padding: 16px 16px 2px 16px;
+    gap: 24px;
+}
+
+.banner-select{
+    color: rgba(19, 19, 24, 0.50);
+    width: 74px;
+    height: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 16px;
+    padding-right: 84px;
+}
+.banner-search{
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+/* .banner-input-search p{
+    font-size: 40px;
+    margin-left: 80px;
+
+    
+} */
+
+
+/* medea */
+@media screen and (max-width: 576px) {
+    /* nav style */
+    nav ul{
+        display: none;
+    }
+
+    /* banner style */
+    .banner{
+        background-position: 50%;
+        /* width: 500px; */
+        margin: 10px 25px;
+    }
+    .banner-container{
+        padding-top: 20px;
+    }
+    .banner-title{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .banner-content{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    /* banner background */
+    .banner-background{
+        flex-direction: column;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        height: 290px;
+        width: 65%;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+}
