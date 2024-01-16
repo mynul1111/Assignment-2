@@ -99,6 +99,9 @@ nav li a{
 /* medea */
 @media screen and (max-width: 576px) {
     /* nav style */
+    nav{
+        margin-left: -10px;
+    }
     nav ul{
         display: none;
     }
@@ -131,5 +134,13 @@ nav li a{
         width: 65%;
         margin-left: 45px;
         margin-top: 20px;
+    }
+
+    .banner-select{
+        width: 120px;
+    }
+    .banner-search{
+        width: 220px;
+        padding-left: 10px;
     }
 }
